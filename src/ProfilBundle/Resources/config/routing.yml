@@ -1,3 +1,16 @@
-profil_homepage:
-    path:     /profil
+
+home:
+    path:     /home
     defaults: { _controller: ProfilBundle:Default:index }
+inscription:
+    path:     /inscription
+    defaults: { _controller: ProfilBundle:Default:inscription }
+before_signup:
+    path:     /before
+    defaults: { _controller: ProfilBundle:Default:BeforeSign }
+inscription_entreprise:
+    path:     /inscrientreprise
+    defaults: { _controller: ProfilBundle:Default:inscriptionEntreprise }
+login:
+    path:     /loginn
+    defaults: { _controller: ProfilBundle:Default:Login }
